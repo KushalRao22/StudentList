@@ -36,16 +36,13 @@ int main(){
       addStudent(&students);
     }
     else if(strcmp(input,"PRINT") == 0){//If user wants to print
-      cout << "Print" << endl;
       print(students);
 
     }
     else if(strcmp(input,"DELETE") == 0){//If user wants to delete
-      cout << "DELETE" << endl;
       Remove(students);
     }
     else if(strcmp(input,"QUIT") == 0){//If user wants to quit
-      cout << "QUIT" << endl;
       quit = true;
     }
   }
