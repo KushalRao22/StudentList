@@ -75,7 +75,7 @@ void print(vector<Student> input){//Method to print out all the students
   for(int i = 0; i < input.size(); i++){//For each student
     float gpa = input[i].gpa;//format gpa to have to decimals 
     cout << input[i].firstName << " " << input[i].lastName << " ID: " << 
-    input[i].id << " GPA: " << setprecision(3) << gpa << endl;//Format and print
+      input[i].id << " GPA: " << setprecision(2) << fixed << gpa << endl;//Format and print
   }
 }
 
